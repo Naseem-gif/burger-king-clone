@@ -103,50 +103,70 @@ header {
 
 /* header ended  */
 
-/* menu section started  */
-.menu-heading {
+
+/* rewards-section started  */
+.rewards-heading {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 40px;
-    margin-top: 120px;
+    margin-top: 130px;
     border-bottom: 2px solid #502314;
-    
 }
 
-.menu-heading span {
-    font-size: 20px;
+.rewards-heading h3 {
+    font-family: flame-sans;
+    font-size: 26px;
+    
     color: #502314;
-    font-family: flame-regular;
-    
 }
 
-.menu-items {
+.rewards-section {
+    display: flex;
+    width: 80vw;
+    justify-self: center;
+    margin-top: 20px;
+}
+
+.crowns-num {
+    font-family: flame-regular;
+    font-size: 18px;
+    color: #502314;
+}
+
+.fa-crown {
+    color: rgb(255, 170, 0);
+}
+
+.rewards-image {
+    width: 80vw;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     gap: 20px;
+    justify-self: center;
+    margin-top: 20px;
 }
 
-.menu-item {
+.reward-img-container {
+    background-color: #dfd8cf;
+    width: 150px;
+    height: 200px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-.menu-item h3 {
     font-family: flame-regular;
-    font-size: 18px;
-    letter-spacing: 0.1rem;
     color: #502314;
+    font-size: 12px;
+    border-radius: 8px; 
+    gap: 5px;
 }
 
-.menu-items img {
-    width: 380px;
-    height: 170px;
+.reward-img-container img {
+    width: 100px;
+    height: 100px;
 }
-/* menu section ended  */
+
+/* rewards section ended  */
 
 /* footer navbar started  */
 .footer-navbar {
@@ -168,10 +188,6 @@ header {
 
 
 
-
-
-
-
 @media (max-width: 1120px) {
     .view-cart-btn {
         display: none;
@@ -180,36 +196,6 @@ header {
     .nav-logo {
         justify-self: flex-start;
     }
-
-    .navbar {
-        padding: 0 20px;
-    }
-
-}
-
-
-@media (max-width: 780px) {
-    .menu-items {
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-    }
-
-    .menu-item {
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-        box-shadow: 0 4px 2px rgba(0, 0, 0, 0.075);
-    }
-
-    .menu-items img {
-        width: 140px;
-        height: 90px;
-    }
-    
-    
-
-    
 }
 
 
@@ -220,5 +206,12 @@ header {
 
     .navbar {
         padding: 0 20px;
+    }
+}
+
+@media (max-width: 400px) {
+    .reward-img-container {
+        background-color: #dfd8cf;
+        width: 120px;
     }
 }
