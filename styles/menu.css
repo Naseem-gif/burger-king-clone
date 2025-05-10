@@ -104,6 +104,9 @@ header {
 /* header ended  */
 
 /* menu section started  */
+.menu-section {
+    height: 80vw 
+}
 .menu-heading {
     display: flex;
     justify-content: center;
