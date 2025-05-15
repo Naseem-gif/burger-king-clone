@@ -266,7 +266,11 @@ header {
     justify-content: space-around;
     align-items: center;
     font-family: flame-sans;
-    height: 50px;
+    background-color: #f8f1e7;
+    padding: 20px 0;
+    position: fixed;
+    width: 100vw;
+    bottom: 0;
     font-size: 16px;
     color: #502314;
 }
