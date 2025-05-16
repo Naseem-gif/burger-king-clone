@@ -125,6 +125,7 @@ header {
     width: 80vw;
     justify-self: center;
     margin-top: 20px;
+    
 }
 
 .crowns-num {
@@ -143,7 +144,8 @@ header {
     flex-wrap: wrap;
     gap: 20px;
     justify-self: center;
-    margin-top: 20px;
+    margin: 20px 0 60px 0;
+
 }
 
 .reward-img-container {
@@ -176,7 +178,7 @@ header {
     align-items: center;
     font-family: flame-sans;
     background-color: #f8f1e7;
-     padding: 20px 0;
+    padding: 20px 0;
     position: fixed;
     width: 100vw;
     bottom: 0;
